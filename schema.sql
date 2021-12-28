@@ -7,3 +7,6 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `token` (`token`)
 );
+INSERT INTO `user` (`name`, `token`, `leader_card_id`) VALUES
+("init1", "abc", 1),
+("init2", "def", 2);
